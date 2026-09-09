@@ -7,17 +7,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SecondActivity">
 
 
 
-        <EditText
-            android:id="@+id/editTextNumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Masukan No Telepon"
-            android:inputType="number" />
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Masukan No Telepon"
+        android:inputType="number" />
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -45,15 +45,9 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Sumbit" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pindah Halaman"
-        android:onClick="pindahHalaman"/>
+        android:layout_width="413dp"
+        android:layout_height="64dp"
+        android:text="Sumbit"
+        android:onClick="dataSimpan"/>
 
 </LinearLayout>
